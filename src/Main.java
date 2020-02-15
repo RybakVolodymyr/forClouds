@@ -4,7 +4,7 @@ public class Main {
         for (int i = 0; i < 1000; i++) {
             try {
                 Thread.sleep(1000);
-                System.out.println(i + ") Wake up !!!");
+                System.out.println(i + ")You can still sleep !!!");
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 System.out.println("The alarm clock is broken");
