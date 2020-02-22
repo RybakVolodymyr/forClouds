@@ -7,8 +7,7 @@ public class Main {
                 System.out.println(i + ") Wake up !!! You have the first lesson !!!!, Good Luck");
             } catch (InterruptedException e) {
                 e.printStackTrace();
-                System.out.println("shoto tam")
-                System.out.println("MDA, chet ne tak");
+                System.out.println("The battery is changing");
             }
         }
     }
