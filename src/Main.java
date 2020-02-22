@@ -7,7 +7,7 @@ public class Main {
                 System.out.println(i + ")You can still sleep !!!");
             } catch (InterruptedException e) {
                 e.printStackTrace();
-                System.out.println("The alarm clock is broken");
+                System.out.println("The battery is changing");
             }
         }
     }
